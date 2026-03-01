@@ -1,0 +1,12 @@
+{
+  "name": "whiteboard-az-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "whiteboard-tutorial",
+    "backend"
+  ],
+  "scripts": {
+    "build": "cd whiteboard-tutorial && npm ci && npm run build"
+  }
+}
